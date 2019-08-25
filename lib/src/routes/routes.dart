@@ -1,3 +1,5 @@
+import 'package:componentes/src/pages/animated_container.dart';
+import 'package:componentes/src/pages/input_page.dart';
 import 'package:flutter/material.dart';
 
 import '../pages/home_page.dart';
@@ -11,7 +13,9 @@ Map<String, WidgetBuilder> getApplicationRoutes(){
     '/' : (BuildContext context) => HomePage(),
     'alert' : (BuildContext context) => AlertPage(),
     'avatar' : (BuildContext context) => AvatarPage(),
-    'card': (BuildContext context) => CardPage()
+    'card': (BuildContext context) => CardPage(),
+    'animatedContainer': (BuildContext context) => AnimatedContainerPage(),
+    'input': (BuildContext context) => InputPage()
   };
 
 }
