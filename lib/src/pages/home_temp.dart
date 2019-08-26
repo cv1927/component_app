@@ -17,7 +17,7 @@ class HomePageTemp extends StatelessWidget {
     );
   }
 
-  List<Widget> _crearItems() {
+  /*List<Widget> _crearItems() {
 
     List<Widget> lista = new List<Widget>();
 
@@ -30,12 +30,12 @@ class HomePageTemp extends StatelessWidget {
       lista..add(tempWidget)
           ..add(Divider());
       
-      /*lista.add(tempWidget);
-      lista.add(Divider());*/
+      lista.add(tempWidget);
+      lista.add(Divider());
     }
 
     return lista;
-  }
+  }*/
 
   List<Widget> _crearItemsCorta() {
 
